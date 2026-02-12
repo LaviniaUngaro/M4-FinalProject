@@ -18,6 +18,3 @@ All rights belong to the original authors.
 
 ### Collectibles
 - Low Poly Pirate Coin - Magic Games (itch.io): https://magic-games.itch.io/low-poly-pirate-coin
-
-### Traps
-- Dungeon Asset Pack (Traps) - Styloo (itch.io): https://styloo.itch.io/dungeon-asset-pack
