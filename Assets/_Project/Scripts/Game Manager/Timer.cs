@@ -21,6 +21,7 @@ public class Timer : MonoBehaviour
     private void Update()
     {
         if (_gameManager.GetIsGameOver()) return;
+        if (_gameManager.GetIsWin()) return;
 
         if (_remainingTime >= 1)
         {

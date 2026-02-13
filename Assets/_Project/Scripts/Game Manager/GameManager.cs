@@ -25,6 +25,7 @@ public class GameManager : MonoBehaviour
     }
 
     public bool GetIsGameOver() => _isGameOver;
+    public bool GetIsWin() => _isWin;
 
     private void FallingPlayer()
     {
