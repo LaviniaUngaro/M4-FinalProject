@@ -6,9 +6,9 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField] private Transform _player;
     [SerializeField] private CameraFollow _camera;
+    [SerializeField] private int _fallingLimit = -20;
 
     private LifeController _lifePlayer;
-    private int _fallingLimit = -20;
     private bool _isGameOver = false;
     private bool _isWin = false;
     private SoundManager _soundManager;

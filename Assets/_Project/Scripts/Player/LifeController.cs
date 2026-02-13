@@ -14,10 +14,10 @@ public class LifeController : MonoBehaviour
     [SerializeField] private int _regenRate = 2;
     [SerializeField] private float _regenPercent = 0.1f;
 
-    private float _startRegenTime = 0f;
+    private float _startRegenTime;
     private bool _needsRegen = false;
     private int _regenTarget;
-    private float _regenBuffer = 0f;
+    private float _regenBuffer;
 
     [SerializeField] private UnityEvent<int, int> _onLifeChanged;
 
